@@ -133,7 +133,7 @@ div#left {
     display: inline-block;
     padding: 8px;
     box-sizing: border-box;
-    margin-left: 3%;
+    margin-left: 2.6%;
     padding: 16px;
     vertical-align: top;
     font-family: 'Poppins';
@@ -151,7 +151,7 @@ div#right {
     font-family: 'Poppins';
     position: absolute;
     top: 720px;
-    margin-left: 3%;
+    margin-left: 2.6%;
 }
 
 
