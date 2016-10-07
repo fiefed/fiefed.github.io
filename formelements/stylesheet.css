@@ -131,8 +131,25 @@ div#content1 {
     margin-bottom: 2%;
 }
 
+p#video {
+    margin: auto;
+    width: 560px;
+}
+
 div#content2 {
     background-color: #bbe8e8;
+}
+
+img#bbckoala {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+h1 {
+    margin: auto;
 }
 
 div.contents {
@@ -140,7 +157,7 @@ div.contents {
     width: 100%;
     padding: 16px;
     vertical-align: top;
-    height: 48.5%;
+    /*height: 48.5%;*/
     display: inline-block;
 }
 
