@@ -1,0 +1,255 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+div#container {
+    width: 1300px;
+    margin-left: 2%;
+}
+
+div#header {
+    width: 90%;
+    height: 200px;
+    border: 10px inset #aae2e2;
+    margin-left: 5%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-image: url(http://www.intrawallpaper.com/static/images/cool-background.jpg); 
+}
+
+div#pic {
+display: inline-block;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    /* vertical-align: top; */
+}
+
+img {
+width: 150px;
+    height: 150px;
+    display: inline;
+    /* margin-top: 50px; */
+}
+
+h2#koala {
+display: inline-block;
+    background: url(https://lh3.googleusercontent.com/cqz9vexOupT1vx2-H4XuYTDh6Z_lT5JR2vmasiwQgCYHJscrRHS3a5xaghcwaT1h3Kw=s114) no-repeat center center;
+    background-size: cover;
+    color: rgba(170, 226, 226, 0);
+    -webkit-background-clip: text;
+    font-size: 100px;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'verdana';
+    box-sizing: border-box;
+    vertical-align: top;
+    -webkit-text-stroke: 3px black;
+}
+
+div#button1 {
+    margin-left: 38%;
+}
+
+div.buttons {
+    border: 5px solid #aae2e2;
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: -50px 0 0 30px;
+    text-align: center;
+    padding: 5px 5px 2px 5px;
+    font-family: 'poppins';
+    font-size: large;
+    color: #aae2e2;
+    vertical-align: top;
+}
+
+div.buttons:hover {
+   background-color: #3b2352;
+}
+
+div#sidebar {
+    width: 21%;
+    box-sizing: border-box;
+    margin-left: 4%;
+    display: inline-block;
+}
+
+div.mid {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #e8f581;
+    display: inline-block;
+    margin-top: 35px;
+    box-sizing: border-box;
+    background-image: url(http://content.mycutegraphics.com/backgrounds/spring/spring-leaves-background.gif);
+    margin-left: 5%;
+}
+
+div#mid1 {
+    margin-top: 25px;
+}
+
+div.midtitle {
+    position: absolute;
+    bottom: 25px;
+    left: 36px;
+    height: 200px;
+    background-color: #daf58a;
+    border-radius: 100%;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #766146;
+    box-sizing: border-box;
+    padding: 30px;
+    font-family: 'poppins';
+    color: #766146;
+}
+div.midtitle:hover {
+	background: maroon;
+}
+
+div#content {
+    display: inline-block;
+    width: 67.38%;
+    height: 1130px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin-left: 2.3%;
+    vertical-align: top;
+    font-family: 'Poppins';
+}
+div#content1 {
+    background-color: #a78bc1;
+    margin-bottom: 2%;
+}
+
+div#content2 {
+    background-color: #bbe8e8;
+}
+
+div.contents {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px;
+    vertical-align: top;
+    height: 48.5%;
+    display: inline-block;
+}
+
+div.midbutbot {
+    position: absolute;
+    bottom: -20px;
+    left: -15px;
+    height: 40px;
+    background-color: #dc6189;
+    border-radius: 100%;
+    width: 40px;
+    text-align: center;
+    font-size: 38px;
+}
+
+div.midbuttop {
+    position: absolute;
+    top: -20px;
+    right: -15px;
+    height: 40px;
+    width: 40px;
+    background-color: #75bd74;
+    border-radius: 100%;
+    text-align: center;
+    padding: 2px;
+    font-size: 38px;
+}
+
+div.midbuttop:hover {
+    background-color: #dc0e54;
+ }
+
+div.midbutbot:hover {
+    background-color: #f1d907;
+ }
+
+div.forms {
+    width: 44%;
+    height: 400px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    /*background-color: #6fd485;*/
+    border: 10px dashed #aae2e2; 
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div#form2 {
+    margin-left: 1.5%;
+}
+
+div#form1 {
+    margin-left: 5%;
+}
+
+select {
+    font-family: 'Poppins';
+    font-size: 15px;
+    padding: 9px;
+    background: #6b8e8e;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+input#email {
+    margin-left: 13%;
+}
+
+input[type="text"] {
+    background: #6b8e8e;
+    color: white; 
+    height: 28px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 18px;
+    margin-left: 5%;
+}
+
+input[type="submit"] {
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 9px;
+    background: #6b8e8e;
+    color: white;
+    border-radius: 10px;
+}
+
+div#footer {
+    width: 87.5%;
+    height: 250px;
+    /* border: 5px solid #bebf54; */
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin-left: 6.9%;
+    background-color: #baecb0;
+    margin-bottom: 2%;
+    background-image: url(http://www.intrawallpaper.com/static/images/cool-background.jpg);
+    border: 10px inset #aae2e2;
+    font-family: 'Monoton', cursive;
+ }
+
+h1#end {
+    color: #aae2e2;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 40px;
+}
