@@ -67,6 +67,7 @@ div.buttons {
     font-size: large;
     color: #aae2e2;
     vertical-align: top;
+    background-color: rgba(0, 0, 0, 0.51)
 }
 
 div.buttons:hover {
@@ -227,7 +228,7 @@ select {
 }
 
 input#email {
-    margin-left: 13%;
+    margin-left: 12.6%;
 }
 
 input[type="text"] {
