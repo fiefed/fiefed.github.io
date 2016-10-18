@@ -250,7 +250,7 @@ div#midbut1 {
     transition-duration: 3s;
 }
 
-div#midbut1:hover {
+div#mid1:hover div#midbut1 {
     background-color: #dc0e54;
     right: 245px;
 }
@@ -259,7 +259,7 @@ div#midbut2 {
     transition-duration: 3s;
 }
 
-div#midbut2:hover {
+div#mid1:hover div#midbut2 {
     background-color: #75bd74;
     left: 245px;
 }
