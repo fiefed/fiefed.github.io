@@ -1,15 +1,21 @@
 * {
 	margin: 0 auto;
 	display: inline-block;
+
 }
 
+body {
+  width: 100%;
+}
 section.topbar {
-    padding: 25px 0px 0px 0px;
+    padding-top: 25px;
     font-size: 14px;
     display: inline-block;
 }
 
-
+head {
+  display: none;
+}
 
 div.contact {
 	margin-left: 2px;
@@ -53,11 +59,11 @@ color: #463f3a;
         margin-left: 5px;
 }
 
-
-
 section.menu {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    background: #f5f6f1;
+    margin-bottom: 40px;
 }
 
 #mainmenu {
@@ -103,6 +109,7 @@ section.main {
     background: url(../images/slideshow-image-3.png);
     background-repeat: no-repeat;	
 	background-size: cover;
+  position: relative;
 }
 
 #productlist li {
@@ -115,14 +122,19 @@ section.main {
 }
  
 #productlist ul {
-	padding-top: 80px;
-	padding-bottom: 80px;
-} 
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 85px;
+}
+
 
 #redlogo {
-    margin-bottom: 80px;
-    margin-left: 315px;
+    position: absolute;
+    top: 180px;
+    right: 0;
 }
+
 
 section.info .red {
 	color: #f55856;
@@ -143,12 +155,60 @@ section.info .bold {
 	font-size: 30px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    line-height: 80%;
-    
+    padding-left: 0;   
 }
 
+section.info .summary3 {
+    background: #f5f6f1;
+    width: 100%;
+    line-height: 80%;
+    margin-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;  
+}
+
+section.info .summary1, .summary2 {
+    background: #f5f6f1;
+    width: 100%;
+    line-height: 80%;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;  
+}
+
+section.info .bold2 {
+  color: #463f3a;
+  font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-left: 0;
+        background: #f5f6f1;
+}
 section.info {
-	padding: 50px 0 80px 0;
+	padding: 50px 0 50px 0;
+}
+
+section.overalltitles {
+    background: #f5f6f1;
+    padding-top: 30px;
+}
+
+section.categories .container {
+  margin: 0px;
+}
+
+section.categories .cat {
+      background: #ffffff;
+    padding: 0 0 15px 0;
+    margin: 0 30px 0 0; 
+    width: 370px;
+}
+
+section.categories .cat3 {
+      background: #ffffff;
+    padding: 0 0 15px 0;
+    margin: 0 0 0 0; 
+    width: 370px;
 }
 
 .lines {
@@ -169,11 +229,26 @@ section.info {
 
 section.titles {
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
-.container {
-  padding: 0;
+  section.overallfeatured {
+    background: #f5f6f1;
+    padding-top: 30px;
 }
+
+  .container-fluid {
+    padding-right: 60px;
+    padding-left: 60px;
+    
+  }
+
+    .container {
+   
+    margin-left: 60px;
+  }
+
+
 
 .fourpic {
   width: 280px;
@@ -185,7 +260,7 @@ section.titles {
   height: 180px;
 }
 
-p.heading {
+p.categoryheader {
     color: #463f3a;
     font-weight: bold;
     font-size: 30px;
@@ -218,7 +293,7 @@ a.view {
 }
 
 section.categories {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 img.corner {
@@ -317,6 +392,7 @@ section.footer {
     background: #eeeeee;
     padding-top: 50px;
     padding-bottom: 30px;
+
 }
 
 
