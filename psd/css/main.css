@@ -1,0 +1,349 @@
+* {
+	margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+section#topnav .topmenu {
+  font-size: 16px;
+     margin-right: -80px;
+     padding-top: 20px;
+  line-height: 1.125;
+  padding-left: 20px;
+      float: right;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+section#topnav {
+	    background: #87509c;
+}
+
+section#topnav .navbar-default {
+    background-color: #87509c; 
+    border-color: #87509c; 
+}
+
+ section#topnav .navbar {
+   margin-bottom: 0px; 
+    padding: 40px 100px;
+}
+
+ section#topnav .navbar-header {
+    width: 100%;
+}
+.brand {
+    display: inline-block;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #643a79;
+}
+
+section#topnav a {
+    color: #fff;
+}
+section#topnav a:hover {
+  background-color: #643a79;}
+
+section#header {
+    background: #87509c;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+        padding: 100px 100px;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #eb7d4b;
+    border-color: #eb7d4b;
+    margin: 0 auto;
+    margin-top: 59px;
+        display: block;
+    padding: 20px 80px;
+        font-size: 20px
+}
+
+section#services {
+    background: #17c2a4;
+    padding: 100px 100px;
+    color: #fff;
+
+}
+
+div#titleservices {
+  font-size: 40px;
+   font-weight: bold;
+  
+}
+
+.servicepic {
+    width: 131px;
+    height: 159px;
+}
+ section#services hr {
+    width: 78px;
+    border-top: #14a58c solid 4px;
+    margin-top: 8px;
+}
+
+div#servicedetails {
+  font-size: 18px;
+  margin-bottom: 80px;
+ }
+
+div.minititle {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+div.minidetails {
+  font-size: 16px;
+padding-top: 15px;
+}
+
+section#team {
+    background: #e7f1f8;
+padding: 100px 100px;
+    color: #3c4761;
+
+}
+
+div#titleteam {
+  font-size: 40px;
+   font-weight: bold;
+  
+}
+
+ section#team hr {
+    width: 78px;
+    border-top: #c8d9e5 solid 4px;
+    margin-top: 8px;
+}
+
+div#teamdetails {
+  font-size: 18px;
+  margin-bottom: 80px;
+ }
+
+div.teamname {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+div.job {
+  font-size: 16px;
+padding-top: 5px;
+color: #48c1e9;
+}
+
+div.teamdetails {
+  font-size: 16px;
+padding-top: 15px;
+}
+
+div.social li {
+  display: inline-block;
+padding: 5px;
+}
+
+div.social ul {
+  padding-left: 0;
+  padding-top: 15px;
+}
+
+section#skills {
+    background: #ffffff;
+    padding: 100px 100px;
+    color: #3c4761;
+}
+
+section#skills hr {
+	
+	    width: 78px;
+    border-top: #dfe8ed solid 4px;
+    margin-top: 8px;
+	}
+
+div.skilltype {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+div.c100 {
+margin: 0 auto;
+float: none;
+
+}
+
+div.c100 span {
+	color: #3c4761; 
+}
+
+section#portfolio {
+    background: #ffdd99;
+      padding: 100px 100px;
+    color: #393939;
+}
+
+section#portfolio hr {
+    width: 78px;
+    border-top: #e5c37f solid 4px;
+    margin-top: 8px;    
+}
+
+section#portfolio .nav-pills > li.active > a, section#portfolio .nav-pills > li.active > a:hover, section#portfolio .nav-pills > li.active > a:focus {
+    
+    background-color: #ffffff;
+
+}
+
+section#portfolio .nav-pills > li{
+	display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+        float: none;
+        font-size: 18px;
+}
+
+section#portfolio a {
+    color: #393939;
+    background-color: #ebc985;
+    padding: 15px 25px;
+    
+}
+section#portfolio a:hover {
+  background-color: #ffffff;}
+
+div#portdetails {
+	
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+div#porttitle {
+	text-transform: uppercase;
+	  font-size: 20px;
+	  font-weight: bold;
+	}
+.portpic {
+	padding: 60px 0 30px 0;
+}
+
+section#feedback {
+    background: #d74680;
+     padding: 100px 100px;
+    color: #fff;
+}
+
+section#feedback hr {
+    width: 78px;
+    border-top: #b73c6d solid 4px;
+    margin-top: 8px;
+}
+
+section#feedback .feedbackdetails {
+font-size: 18px;
+    font-style: italic;
+ }
+
+ section#feedback .teamname {
+text-transform: uppercase;
+    padding-top: 20px;
+ }
+
+ section#feedback .job {
+	color: #fac996;
+ }
+
+ section#feedback .col-md-6.col-sm-12.col-xs-12 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+ .feedbackpic {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 38px;
+}
+
+.feedbackinfo {
+    display: inline-block;
+    width: 61%;
+    text-align: left;
+}
+
+section#contact {
+    background: #3c5499;
+      padding: 100px 100px;
+    color: #fff;
+}
+
+section#contact hr {
+    width: 78px;
+    border-top: #273a71 solid 4px;
+    margin-top: 8px;
+}
+section#contact .row {
+    padding: 40px 160px;
+}
+
+section#portfolio .btn-primary, section#contact .btn-primary {
+    background-color: #30bae7;
+    border-color: #30bae7;
+    padding: 15px 50px;}
+
+    section#portfolio .btn-primary{
+      margin-top: 50px;}
+
+section#contact .form-control {
+	    border: 1px solid #273a71;
+	    color: #fff;
+	    background: #273a71;
+	    padding: 10px 18px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form-control::-webkit-input-placeholder::after {
+	content: "*";
+	color: red;
+    
+}
+
+    
+
+section#footer {
+    background: #344b8e;
+      font-size: 24px;
+    color: #fff;
+  font-weight: bold;
+  line-height: 1.246;
+}
+
+section#footer li {
+  display: inline-block;
+padding: 25px;
+    background: #344b8e;
+    }
+
+section#footer li a {
+ color: #fff;
+text-decoration: none;
+        }
+
+section#footer li.active > a, section#footer li a:hover  {
+color: #30bae7;
+}
+
+
+
+
+
+
