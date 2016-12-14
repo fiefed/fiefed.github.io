@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    font-family: 'ABeeZee', sans-serif;
+ }
+
+@media (min-width: 768px){
+.navbar {
+    border-radius: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .box5.col-md-2 {
+        width: 20%;
+        text-align: justify;
+    }
+}
+
+a.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #c7f7d3;
+    background-color: rgba(76, 25, 25, 0.15);
+}
+
+.navbar-inverse .navbar-brand {
+    color: #c7f7d3;
+    }
+
+div#contact {
+    padding: 0;
+    color: #040000;
+    text-align: right;
+    font-weight: bold;
+    background: rgba(0, 255, 255, 0.26);
+    border-radius: 150px 0;
+}
+
+.glyphicon {
+    color: #c7f7d3;
+    padding-right: 10px;
+}
+
+.jumbotron {
+    color: white;
+    background-color: #966060;
+    text-align: center;
+}
+
+img#mypic {
+    display: inline-block;
+    width: 16%;
+    border-radius: 43%;
+}
+
+div#condetails {
+    padding-right: 8%;
+}
+
+
+section#header {
+    background: url(../images/keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+div#header {
+    text-align: center;
+    padding: 8%;
+    padding-right: 0;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #c7f7d3;
+    background-color: #080808;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #c7f7d3;
+    background-color: transparent;
+}
+
+div#pic {
+    text-align: right;
+    padding-right: 8%;
+    padding-bottom: 3%;
+        padding-top: 3%;
+}
+.navbar {
+    margin-bottom: 0px; 
+}
+
+  nav#topmenu {
+    background: rgba(0, 255, 255, 0.23);
+    border: 0px;
+}
+button.btn.btn-info {
+        background: rgba(3, 23, 23, 0.75);
+    border: 0px;
+    margin-bottom: 45px;
+    color: #c7f7d3;
+    font-weight: bold;
+    border-radius: 30px 0px;
+}
+
+
+div#buttons {
+    text-align: left;
+    
+  
+}
+
+div#contact {
+    padding: 0 0 5% 0;
+    
+    text-align: right;
+    font-weight: lighter;
+    background: rgba(3, 23, 23, 0.75);
+    
+    color: #c7f7d3;
+}
+
+section#info {
+    padding: 4% 8%; 
+     
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../images/professional-web-development-benefits.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 89%;
+    background-position-x: 10%;
+    
+}
+div#profile {
+        
+        line-height: 2;
+    
+}
+
+div#profile h3 {
+        
+        font-style: italic;
+        padding-left: 38%;
+    
+}
+
+div#skills {
+
+     padding: 4% 8%; 
+     
+    margin-right: auto;
+    margin-left: auto;
+            background: #020204;
+    color: #689abf;
+    
+}
+
+div#skills h1 {
+padding-bottom: 5%;
+}
+
+.skilltype {
+    padding-top: 10%;
+    text-align: center;
+}
+
+section#portfolio {
+     padding: 4% 8%; 
+     
+    margin-right: auto;
+    margin-left: auto;
+        background: #fff; 
+}
+
+section#portfolio h1 {
+    padding-bottom: 2%;
+}
+
+section#portfolio .col-md-4.col-sm-6.col-xs-12 {
+    padding: 0;
+}
+
+.koala {
+   
+    background: url(../images/koala.jpg);
+}
+
+.cuda {
+   
+    background: url(../images/cuda.jpg);
+}
+
+.thesetup {
+   
+    background: url(../images/setup.jpg);
+}
+.portfoliopic {
+   
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 97%;
+    height: 15em;
+}
+ section#footer {
+    text-align: center;
+        background: #dbffff;
+    font-size: 0.8em;
+    padding: 0.5em;
+} 
+
+section#form {
+    padding: 4% 8%; 
+     
+    margin-right: auto;
+    margin-left: auto;
+    
+background: #c3dcef;
+
+    }
+
+section#form .formcol {
+    padding: 0 1%;}
+
+input#name {
+    padding-right: 3em;}
+
+    section#form h1 {
+    padding-bottom: 5%; }
+
+section#footer .glyphicon {
+    color: #333;
+    padding-right: 0;
+}
+
+
+
+body {
+	font-size: 20px;
+}
+
+/* css for jquery plugin */
+#slidebox {
+    width: 300px;
+    height: 250px;
+    background-color: #151314;
+    border: 1px solid black;
+    padding: 20px;
+    -webkit-box-shadow: -10px -10px 50px 5px #A6A6A6;
+    box-shadow: -10px -10px 50px 5px #A6A6A6;
+    color: #dbffff;
+}
+
+#slidebox img {
+    width: 50%;
+    height: 50%;}
+
+
+

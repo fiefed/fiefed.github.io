@@ -1,229 +1,382 @@
 <!DOCTYPE html>
-<html lange="en">
-	<head>
-	<meta charset="utf-8"/>
-		<title>Profile for Afidah Shahbudin</title>
-		<style>
-			body {
-				background: #2d8659;
-				margin: 0;
-				padding: 0;
-				font-family: "Helvetica", "Arial";
-				}
-				#wrapper {
-					width: 960px;
-					height: auto;
-					background: #ccff99;
-					border-left: 5px solid #A09885;
-					border-right: 5px solid #A09885;
-					overflow: auto;
-					margin: 0 auto;
-					padding: 10px;
-				}	
-				#header {
-					width: 100%;
-					height: 100px;
-					border-bottom: 3px solid #767063;
-				}
-				#logo {
-					float : left;
-					margin: 15px 0px 0px 80px;
-				}
-				#social {
-					float : right;
-					margin: 20px 30px 0px 80px;		
-				}
-				#social ul li {
-					float : left;
-					list-style: none;
-					padding-right: 5px;
-				}
-				#social img {
-					height: 55px;
-					width : 55px;
-						
-				}
-				#sidebar {
-					float: left;
-					width : 275px;
-					height: 100%;	
-				}
-				#menu ul {
-					float: left;
-					height: auto;
-					width : 200px;
-						
-				}
-				#menu ul li {
-					list-style: none;
-					padding: 5px;
-					text-align: center;	
-				}
-				#menu ul li a {
-					background: #CBBB9B;
-					color : #4E4F3E;
-					text-decoration: none;
-					padding: 10px 0px;
-					display: block;	
-				}
-				#menu ul li a:hover {
-					color : #fff;
+<html lang="en">
 
-				}
-				#content {
-					float: left;
-					width: 655px;
-					height: 100%;
-					padding-left: 15px;
-					letter-spacing: 1;
-					color: #57574c;
-					border-left: 3px solid #7c7063
-				}
-				h1 {
-					text-align: center;
-					padding-left: 5px;
-					border-bottom: 1px solid #7c7063
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Web Profile for Afidah</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/circle.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <link rel="stylesheet" href="css/foxholder-styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+</head>
 
-				}
-				p {
-					text-indent: 50px;
-					line-height: 25px;
-					text-align: justify;
+<body>
+    <section id="header">
+        <div id="menu">
+            <nav id="topmenu" class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#profile">Afidah 101</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#profile">Profile</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="rows container-fluid" id="header">
+            <div id="buttons" class="box col-md-4">
+                <a href="#profile">
+                    <button type="button" class="btn btn-info btn-lg btn-responsive">Who am I?</button>
+                </a>
+                <br>
+                <a href="#skills">
+                    <button type="button" class="btn btn-info btn-lg btn-responsive">What can I do for you?</button>
+                </a>
+                <br>
+                <a href="#portfolio">
+                    <button type="button" class="btn btn-info btn-lg btn-responsive">What have I done for others?</button>
+                </a>
+                <br>
+                <a href="#form">
+                    <button type="button" class="btn btn-info btn-lg btn-responsive">How can I help you?</button>
+                </a>
+            </div>
+            <div id="contact" class="box col-md-8">
+                <div id="pic">
+                    <img src="images/menov2015_nobg.png" id="mypic" alt="mypic" class="img-responsive">
+                </div>
+                <div id="condetails">
+                    Contact
+                    <br><a href="mailto=fiefed@yahoo.com"><span class="glyphicon glyphicon-envelope"></span></a>fiefed@yahoo.com
+                    <br> <span class="glyphicon glyphicon-earphone"></span>+60173885091</div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="info" class="container-fluid">
+        <div id="profile" class="col-md-9 col-sm-12 col-xs-12">
+            <h1>A little about Afidah....</h1>
+            <h3>"I'm a freelance web developer and e-retailer specializing in helping clients craft websites to represent their businesses or themselves online. I help make their vision a reality. Let me help make your own vision come to life." </h3>
+        </div>
+        <div id="vidcontainer" class="media col-md-3 col-sm-12 col-xs-12">
+            <iframe id="vidprofile" class="media-center" width="200px" height="250px" src="https://www.youtube.com/embed/LdsFdJoHZK0?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="skill">
+        <div id="skills">
+            <h1>I've got the skills to help you with....</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="c100 p80 color1">
+                            <span>80%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="skilltype">HTML5</div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="c100 p80 color2">
+                            <span>80%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="skilltype">CSS3</div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="c100 p75 color3">
+                            <span>75%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="skilltype">BOOTSTRAP</div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="c100 p10 color4">
+                            <span>10%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="skilltype">JAVASCRIPT / JQUERY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="container-fluid">
+        <h1>Body of work</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="portfoliopic koala">
+                        <h5>View site</h5></div>
+                    <div class="minititle">KOALA CLUB</div>
+                    <div class="minidetails">Site with creative animations, transitions and font stylings</div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="portfoliopic thesetup">
+                        <h5>View site</h5></div>
+                    <div class="minititle">THE SETUP</div>
+                    <div class="minidetails">Setup for sophisticated basic site</div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="portfoliopic cuda">
+                        <h5>View site</h5></div>
+                    <div class="minititle">CUDA</div>
+                    <div class="minidetails">Fun and basic site layout with colorful touches</div>
+                </div>
+            </div>
+            </div>
+            </section>
+            <section id="form" class="container-fluid">
+                <h1>How can I help you?</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="formcol col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group foxform">
+                                <form>
+                                    <input type="text" label="namebox" class="form-control required js-placeholder" id="name" placeholder="Your Name">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="formcol col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group foxform">
+                                <form>
+                                    <input type="email" class="form-control required js-placeholder" id="email" label="emailbox" placeholder="Your Email">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="formcol col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group foxform">
+                                <form>
+                                    <textarea class="form-control" id="enquirybox" label="enquiry" rows="8" placeholder="Your Enquiry"></textarea>
+                                </form>
+                            </div>
+                        </div>
+                    
+                
+                <div class="send formcol foxform col-md-12 col-sm-12 col-xs-12">
+                    <form>
+                        <button type="submit" class="btn btn-primary" label="submitbut">SEND MESSAGE</button>
+                    </form>
+                </div>
+                </div>
+                </div>
+                </section>
+                
+        <section id="sb" class="container-fluid">
+            
+            <div class="wrapper col-md-12">
 
-				}
-				img {
-					float: right;
-					padding: 0px 0px 5px 5px;
+                <ul id="sb-slider" class="sb-slider">
+                    <li>
+                        <a href="#" target="_blank"><img src="images/14.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <h3>Creative Lifesaver</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="images/13.jpg" alt="image2"/></a>
+                        <div class="sb-description">
+                            <h3>Honest Entertainer</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="images/12.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <h3>Brave Astronaut</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="images/11.JPG" alt="image1"/></a>
+                        <div class="sb-description">
+                            <h3>Affectionate Decision Maker</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="images/10.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <h3>Faithful Investor</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="images/9.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <h3>Groundbreaking Artist</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="images/8.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <h3>Selfless Philantropist</h3>
+                        </div>
+                    </li>
+                </ul>
 
-				}
-					#imgCM {
-					float: left;
-					padding: 0px 200px 5px 25px;
-				
-				}
-				.top {
-					color: #4e4f3e;
-					
-				}
-				#table {
-					margin: 10px auto;
-					float: center;
-					width: 800px;
+                <div id="shadow" class="shadow"></div>
 
-				}
-				iframe {
-					margin-left: 50px;
+                <div id="nav-arrows" class="nav-arrows">
+                    <a href="#">Next</a>
+                    <a href="#">Previous</a>
+                </div>
 
-				}
-				#footer {
-					clear: both;
-					width: 100%;
-					height: 80px;
-					color: #7c7063;
-					border-top: 3px solid #7c7063;
+            </div><!-- /wrapper -->
+        </section>
+        <section id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#topmenu" class="slidehere">Back to top</a> | <span class="glyphicon glyphicon-copyright-mark"></span> Afidah Shahbudin 2016
+                </div>
+            </div>
+            <div id="slidebox">
+                <h3>Contact me!<small style="float: right;"><a href="#" id="close">close</a></small></h3>
+                <p style="margin-bottom: 9px;">
+                    Fill in the above form with your enquiry and I will revert to you soon.
+                </p>
+                <p class="text-center">
+                    <img src="images/grumpycatface.jpg" />
+                </p>
+            </div>
+        </section>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- JS Plugin here -->
+        <!-- floating script -->
+        <script src="js/floating.js"></script>
+        <script>
+        /*floating({
+                  content: '<img src="images/grumpycat.jpg">',
+                  number: 3,
+                  duration: 11,
+                  size: [0.1,10]
+                });
+                floating({
+                  content: "👌",
+                  number: 5,
+                  duration: 8
+                });
+                floating({
+                  content: "catch me if you can",
+                  number: 3,
+                  duration: 15
+                      });
+                floating({
+                  content: "🙋",
+                  number: 1,
+                  duration: 3,
+                  repeat: 1,
+                  size: 6
+                });
+                floating({
+                  content: '🆒<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Weather-snow.svg">',
+                  number: 10,
+                  direction: 'reverse',
+                  size: [0.1,10]
+                });*/
+        floating({
+            content: '<img src="images/css.png">',
+            number: 3,
+            direction: 'reverse',
+            size: [0.1, 5]
+        });
 
-				}
-				h5 {
-					text-align: center;
-				}
-		</style>
+        floating({
+            content: '<img src="images/html.png">',
+            number: 3,
+            direction: 'reverse',
+            size: [0.1, 5]
+        });
+        </script>
+        <!-- template for js -->
+        <script type="text/javascript" src="custom.js"></script>
+        <!-- slidebox script -->
+        <script src="js/slidebox.js"></script>
+        <!-- form script -->
+        <script src="js/foxholder.js"></script>
+        <script src="js/form.js"></script>
+        <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                
+                var Page = (function() {
 
-	</head>
-	<body>
-		
-		<div id="wrapper">
-			<div id= "header">
-				<a name="top"></a>
-				<div id= "logo">
-					<img src="http://s8.favim.com/610/72/Favim.com-anime-beautiful-cat-cute-707040.jpg" width="120" height="75" alt="Logo" title="my profile pic"/>
-				</div><!---End of logo--->
-				<div id= "social">
-					<ul>
-						<li><a href="http://www.facebook.com/afidah.shahbudin" target="_blank"><img src="https://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook" title="facebook"></a></li>
-						<li><a href="http://www.twitter.com/fidstuff" target="_blank"><img src="https://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter" title="twitter"></a></li>
-						<li><a href="http://www.youtube.com" target="_blank"><img src="https://www.w3newbie.com/wp-content/uploads/youtube.png" alt="youtube" title="youtube"></a></li>
-						<li><a href="http://www.plus.google.com" target="_blank"><img src="https://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus" title="google plus"></a></li>
-						<li><a href="https://my.linkedin.com/in/afidah-shahbudin-gradicsa-38930a10" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="linkedin" title="linkedin"></a></li>
-					</ul>
-						
-				</div><!---End of social--->
-			</div><!---End of header--->
-		<div id= "sidebar">
-			<div id= "menu">
-				<ul>
-					<li><h2><a href="#intro">Intro</a></h2></li>
-					<li><h2><a href="#skills">Skills</a></h2></li>
-					<li><h2><a href="#experience">Experience</a></h2></li>
-					<li><h2><a href="#education">Education</a></h2></li>
-				</ul>
+                    var $navArrows = $( '#nav-arrows' ).hide(),
+                        $shadow = $( '#shadow' ).hide(),
+                        slicebox = $( '#sb-slider' ).slicebox( {
+                            onReady : function() {
 
-			</div><!---End of menu--->
-		</div><!---End of sidebar--->
-		<div id="content">
-			<a name="intro"><h1> Afidah Shahbudin</h1></a>
-				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPiFLAAb9Eq0W1QjP732iaVMXeK24c85kJZhNxl-1Z57xW5urF5A" width="255" height="195" alt="Profile Pic" title="Profile Pic"/>
-			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-			
-						<a name="skills"><h1> Skills</h1></a>
-				<img src="http://cdn.playbuzz.com/cdn/d1969c23-6539-49a0-8cb8-de73479d7ed0/6ac03627-5cfc-4b24-8f13-a4a723c4d8ce.jpeg"width="220" height="310" alt="Skills Pic" title="Skills Pic"/>
-			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-			
-				<div class="top"><h4><a href="#top">Go To The Top!</a></h4></div>
-						<a name="experience"><h1>Experience</h1></a>
-				<img src="https://media.giphy.com/media/LHZyixOnHwDDy/giphy-facebook_s.jpg" width="240" height="135" alt="Experience" title="Experience"/>
-			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                                $navArrows.show();
+                                $shadow.show();
 
-				<div class="top"><h4><a href="#top">Go To The Top!</a></h4></div>
+                            },
+                            orientation : 'r',
+                            cuboidsRandom : true,
+                            disperseFactor : 30
+                        } ),
+                        
+                        init = function() {
 
-						<a name="education"><h1>Education</h1></a>
-				<img src="https://media4.giphy.com/media/3R9LDINpbGX2o/200_s.gif" width="240" height="135" alt="Edu" title="Edu"/>
-			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                            initEvents();
+                            
+                        },
+                        initEvents = function() {
 
-				
-					<div id="table">
-						<table border="1">
-							
-							<tr>
-								<th>Services Offered</th>
-								<th>Data Entry</th>
-								<th>Explainer Video</th>
-								<th>Web Dev</th>
-							</tr>
-							<tr>
-								<th>Portfolio</th>
-								<th>N/A</th>
-								<th>CellMaxx</th>
-								<th>cellmaxxorganics.com</th>
-							</tr>
-							<tr>
-								<th>Fees</th>
-								<th>$5 per hour</th>
-								<th>$10 per hour</th>
-								<th>$15 per hour</th>
-							</tr>
-						</table>
-					</div><!---End of table--->
-					<br></br>
-					<p>Sample explainer video for CellMaxx:</p>
-			<iframe width="480" height="272" src="https://www.powtoon.com/embed/bLUC3ZbeWE2/" frameborder="0"></iframe>
-			<br></br>
-			<p>Sample video resume:</p>
-			<iframe width="580" height="360" src="https://www.powtoon.com/embed/cz4uuXXpSKO?autoplay=1" frameborder="0"></iframe><br>
-			Sample website using Weebly:
-			<br></br>
-			<strong><a href="http://cellmaxxorganics.com">www.cellmaxxorganics.com</a></strong>
-			<br></br>
-			<a href="https://cellmaxxorganics.com"><img id= "imgCM" src="http://cellmaxxorganics.weebly.com/uploads/8/1/8/9/81892536/3720814.jpg?465"/></a>
-			<br></br>
-			<p></p>
-			<div class="top"><h4><a href="#top">Go To The Top!</a></h4></div>
-		</div><!---End of content--->
-		<div id="footer">
-			<h5><br>2016 Afidah Shahbudin</br> <a href="mailto:fiefed@yahoo.com? subject=Job Enquiries">Send me an email!</a></h5>
-			
-		</div> <!---End of footer--->
-				</div><!---End of wrapper--->
-		
-	</body>
+                            // add navigation events
+                            $navArrows.children( ':first' ).on( 'click', function() {
+
+                                slicebox.next();
+                                return false;
+
+                            } );
+
+                            $navArrows.children( ':last' ).on( 'click', function() {
+                                
+                                slicebox.previous();
+                                return false;
+
+                            } );
+
+                        };
+
+                        return { init : init };
+
+                })();
+
+                Page.init();
+
+            });
+        </script>
+</body>
+
 </html>
-
