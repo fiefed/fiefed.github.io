@@ -43,6 +43,7 @@ a.navbar-brand {
 
 img#mypic {
     display: inline-block;
+    border-radius: 224px 0;
 }
 
 div#condetails {
